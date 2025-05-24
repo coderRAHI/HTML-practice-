@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete HTML practice ...</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Heading tags-->
+    <h1>1. Heading tags</h1>
+    <h1>My First Bookmarks - CodeWithRahi....</h1>
+    <h2>My First Bookmarks - CodeWithRahi....</h2>
+    <h3>My First Bookmarks - CodeWithRahi....</h3>
+    <h4>My First Bookmarks - CodeWithRahi....</h4>
+    <h5>My First Bookmarks - CodeWithRahi....</h5>
+    <h6>My First Bookmarks - CodeWithRahi....</h6>
+
+    <!--Paragraph tag-->
+    <h1>2.Paragraph tag</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, cumque cum.
+      Consequatur inventore incidunt accusantium nulla quibusdam eligendi illo a
+      repellendus, asperiores laudantium. Dignissimos, explicabo.
+    </p>
+
+    <!--Pre tags used as a paragraph tags but the main work of pre tag is that the material which is written in it is shown as usall -->
+    <h1>3. Pre tag</h1>
+
+    <pre>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusantium molestiae iusto repellat.
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus adipisci voluptas repudiandae. Consequatur.
+   </pre
+    >
+
+    <!--Anchor tag "we can also called it link tag"-->
+    <h1>4. Anchor tag</h1>
+    <a target="_blank" href="https://www.google.com">open google </a
+    ><br /><br />
+    <a target="_blank" href="https://www.instagram.com">open instagram </a
+    ><br /><br />
+    <a target="_blank" href="https://www.facebook.com">open facebook </a
+    ><br /><br />
+
+    <!--image tag -->
+    <h1>5. Image tag</h1>
+
+    <img height="230" src="himanshu.png" alt="" />
+    <br />
+
+    <!--list tag -->
+    <h1>6. List Tag</h1>
+    <!--we can use "type" attribute to change the type of serial of the list items in ordered list and bullets in unordered list-->
+    <!--1 ordered list-->
+    <ol>
+      <caption>
+        Ordered List of fruits Names
+      </caption>
+      <li>Mango</li>
+      <li>Grapes</li>
+      <li>Oranges</li>
+      <li>Apples</li>
+    </ol>
+
+    <!--Unordered list -->
+
+    <ul>
+      <caption>
+        Unordered List Of Animals Names
+      </caption>
+      <li>Lion</li>
+      <li>Elephant</li>
+      <li>Dog</li>
+      <li>Wolf</li>
+    </ul>
+
+    <!--Table tag-->
+    <h1>7. Table tag</h1>
+
+    <!--we can use Rowspan & Colspan to span the Row and Columnof the table-->
+
+    <table>
+      <caption>
+        List of students with their names and roll number & result
+      </caption>
+
+      <tr>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Roll number</th>
+        <th>result</th>
+      </tr>
+      <tr>
+        <td>Arjun</td>
+        <td>BSc</td>
+        <td>0003</td>
+        <td rowspan="3">pass</td>
+      </tr>
+      <tr>
+        <td>Rahul</td>
+        <td>BSc</td>
+        <td>0004</td>
+      </tr>
+      <tr>
+        <td>RaHi</td>
+        <td>BSc</td>
+        <td>026</td>
+      </tr>
+      <tr>
+        <td>Kapil</td>
+        <td>BSc</td>
+        <td>0034</td>
+        <td rowspan="2">fail</td>
+      </tr>
+      <tr>
+        <td>Kamal</td>
+        <td>BSc</td>
+        <td>0089</td>
+      </tr>
+    </table>
+
+    <!--HTML form tag-->
+    <h1>8.Form :- all the tags that used in forms</h1>
+
+    <form action="post">
+      <div>
+        <label for="username">Enter Your Name : </label>
+        <input
+          type="text"
+          name=" Enter Your Name"
+          id="username"
+          placeholder="Full Name"
+        />
+      </div>
+
+      <div>
+        <h3>Choose Your Gender</h3>
+        <input type="radio" name="gender" id="Male" />
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Female" />
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Others" />
+        <label for="Others">Others</label>
+      </div>
+      <div>
+        <h3>Enter Your Date Of Birth</h3>
+
+        <input type="date" name="date of birth" id="DOB" />
+      </div>
+
+      <div>
+        <h3>Select Your Language Which You Prefered</h3>
+        <select name="language" id="select">
+          <option value="language"></option>
+          <option value="language">C</option>
+          <option value="language">C++</option>
+          <option value="language">Java</option>
+          <option value="language">Python</option>
+          <option value="language">JavaScript</option>
+        </select>
+      </div>
+      <div>
+        <h3>skills</h3>
+        <input type="checkbox" name="skills" id="Full-stack developer" />
+        <label for="Full-stack developer">Full-stack developer</label>
+        <br />
+        <input type="checkbox" name="skills" id="web designer" />
+        <label for="web designer">Web Designer</label>
+        <br />
+        <input type="checkbox" name="skills" id="Database engineer" />
+        <label for="Database engineer">Database engineer</label>
+        <br />
+        <input type="checkbox" name="skills" id="python developer" />
+        <label for="python developer">Python Developer</label>
+      </div>
+      <br />
+      <div>
+        <button>submit</button>
+      </div>
+    </form>
+
+    <!--Inline & Block elements -->
+    <h1>9.Inline and Block elements</h1>
+    <p id="p">Hey I am a paragraph and i am a block element</p>
+    <a id="a" href="https://www.google.com">Google</a>
+    <div id="div">hey i am a div and i am a block element</div>
+    <span id="span">I am a Span and i Am a inline element</span>
+
+    <!--Quick Quiz-->
+    <!--without using br tag write a vertically alinged form asking for name , city ,pincode and email id -->
+    <h1>Quiz Questions Solution : Form</h1>
+    <form action="post">
+      <div>
+        <label for="username">Enter Your Name</label>
+        <input id="username" type="text" placeholder="Full Name" />
+      </div>
+      <div>
+        <label for="email">Enter You e-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="abcd123@gmail.com"
+        />
+      </div>
+      <div>
+        <label for="city">Enter your city</label>
+        <input id="city" placeholder="city name" type="text" />
+      </div>
+
+      <div>
+        <label for="pincode">Enter your Pincode</label>
+        <input type="number" name="pincode" id="pincode" />
+      </div>
+      <div>
+        <button>submit</button>
+      </div>
+    </form>
+
+    <!--id and classes : id attribute is used by the specific tags .in simple words we can say that id is used by only one tag at a same time but the class can be used by the multiple tags at a same time . -->
+    <h1>10. uses of id and class attribute</h1>
+    <div id="color">this the paragraph</div>
+
+    <div class="bgcolor color">this the paragraph of class</div>
+    <div class="bgcolor color">this the paragraph of class</div>
+
+    <!--media tag:- video tag and audio tag-->
+    <h1>11.Media tag:Video and Audio tag</h1>
+    <video controls src="video.mp4" width="208" height="303" loop>video</video>
+    <audio src="audio.mp3" controls loop>audio</audio>
+    <iframe
+      width="208"
+      height="303"
+      src="https://www.youtube.com/embed/4ASNHF1jMzQ"
+      title="Khao Maa Kasam Meme Template | Viral video  #viral #meme #newshorts #ytshorts  #memes #shorts"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <!--Semantic tags-->
+    <h1>12.Semantic tags</h1>
+
+    <header>
+      1. Header tag is use to represent the top section of the web page , often
+      containing heading ,logs , and navigation.
+    </header>
+    <nav>
+      2. Nav tag is used to signifies the navigation menu on a web page .
+    </nav>
+    <article>
+      3. Article tag indicate a self contained piece of content , such as a blog
+      post or news article .
+    </article>
+    <section>
+      4. Section tag represent a thematic grouping of a content on a web page .
+    </section>
+    <aside>
+      5. Aside tag is typicaly used for side bars or content that is
+      tangentially related to the main content.
+    </aside>
+    <footer>
+      6. Footer tag represent the footer of the web page , usually containing a
+      copyright information and contact details.
+    </footer>
+    <figure>
+      7. Figure tag used for embedding images ,diagrams , graphs and charts
+      along with caption.
+    </figure>
+    <figcaption>
+      8. Figcaption tag is used for embedding images ,diagrams , graphs and
+      charts along with caption.
+    </figcaption>
+    <main>9. Main tag is signifies a main content of a web page .</main>
+    <time>10. Time tag is used to represent the time relaed informaton , like dates
+      and times.</time>
+      <!--Marquee tag -->
+      <h1>13. Marquee tag</h1>
+      <marquee direction="left">himanshu gangwar</marquee>
+  </body>
+</html>
